@@ -14,8 +14,8 @@ export default function Logout() {
             id: null,
             role: null
         });
-    }, [setUser, unsetUser]);
-    
+    }, []);
+
     // Redirect to login page
     return <Navigate to="/login" />;
 }
